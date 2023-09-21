@@ -1,0 +1,142 @@
+.login-main {
+    background-image: linear-gradient(to bottom, rgba(61, 61, 61, 0.822), rgb(0, 0, 0));
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.login-card {
+    height: 1000px;
+    width: 800px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.login-already {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    bottom: 40px;
+    ;
+}
+
+.login-already button {
+    width: 350px;
+    height: 50px;
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.575);
+    background-color: black;
+    border-radius: 25px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-already button:hover {
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.login-card label {
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+}
+
+.login-card h1 {
+    font-size: 40px;
+    position: relative;
+    bottom: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login-card span {
+    font-weight: 50;
+    color: rgba(255, 255, 255, 0.322);
+}
+
+.login-card p {
+    background-color: rgba(240, 248, 255, 0.308);
+    width: 600px;
+    height: 0.1px;
+    position: relative;
+    bottom: 20px;
+}
+
+.login-card a {
+    background-color: rgba(240, 248, 255, 0.308);
+    width: 600px;
+    height: 0.1px;
+    position: relative;
+    top: 50px;
+}
+
+.login-card h2 {
+    position: relative;
+    top: 100px;
+    color: rgba(255, 255, 255, 0.699);
+    cursor: pointer;
+}
+
+.login-card h3:hover {
+    cursor: pointer;
+}
+
+.login-card input {
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 10px;
+    background-color: black;
+    font-weight: 700;
+    border: 0.5px solid rgba(255, 255, 255, 0.308);
+}
+
+.login-card input:hover {
+    border: 0.8px solid rgba(255, 255, 255, 0.767);
+}
+
+.login-card .submit-btn {
+    background-color: rgb(8, 153, 69);
+    margin-top: 10px;
+    width: 200px;
+    height: 50px;
+    color: black;
+    border-radius: 20px;
+    border: none;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.login-card .submit-btn:hover {
+    border: none;
+    cursor: pointer;
+
+    background-color: rgb(18, 221, 103);
+}
+
+h2 .link-signup {
+    text-decoration: none;
+    background-color: black;
+    position: relative;
+    top: 0px;
+}
+
+span .guest-account {
+    text-decoration: none;
+    position: relative;
+    top: 20px;
+    background-color: black;
+    color: greenyellow;
+}

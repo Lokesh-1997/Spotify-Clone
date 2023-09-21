@@ -1,0 +1,215 @@
+.signup-main {
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    align-items: center;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+
+}
+
+.signup-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    color: black;
+}
+
+.signup-main h1 {
+    font-size: 30px;
+    margin-top: 10px;
+    color: black;
+}
+
+.signup-main h5 {
+    font-size: 35px;
+    color: black;
+}
+
+.suggestins {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 30px;
+
+}
+
+.suggestins button {
+    width: 350px;
+    height: 50px;
+    padding: 20px;
+    border: 1px solid rgb(8, 8, 8);
+    border-radius: 25px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-weight: 800;
+    background-color: white;
+}
+
+.suggestins button {
+    cursor: pointer;
+}
+
+.straightline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+
+}
+
+.straightline h2 {
+    color: black;
+}
+
+.straightline p {
+    background-color: rgba(0, 0, 0, 0.253);
+    width: 150px;
+    height: 0.1px;
+    color: black;
+}
+
+/* ------------------------------Form--------------------------- */
+
+.form {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 500px;
+}
+
+.form .user-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.form .user-inputs input {
+    height: 45px;
+    margin-top: 5px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 0.5px solid rgba(0, 0, 0, 0.37);
+    color: black;
+    font-weight: 800;
+}
+
+.user-inputs input:hover {
+    border: 0.7px solid rgba(0, 0, 0, 0.87);
+}
+
+.form label {
+    color: black;
+}
+
+.form p {
+    color: black;
+}
+
+.form .birthday-text {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.form .birthday-select {
+    display: flex;
+    gap: 15px;
+}
+
+.form .birthday-select .year {
+    width: 120px;
+}
+
+.form .birthday-select .month {
+    width: 250px;
+    height: 55px;
+    border-radius: 5px;
+    color: black;
+    display: flex;
+
+    justify-content: center
+}
+
+.form .birthday-select option {
+    color: black;
+    font-weight: 800;
+    height: 55px;
+}
+
+.form .birthday-select .day {
+    width: 100px;
+}
+
+.birthday-select input {
+    text-align: center;
+    height: 50px;
+    border-radius: 5px;
+    color: black;
+}
+
+.radio-main {
+    margin-top: 15px;
+}
+
+.radio-section {
+    display: flex;
+    width: 500px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+
+}
+
+.signup-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.signup-btn input {
+    height: 60px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: rgb(8, 153, 69);
+    border: none;
+    color: black;
+    font-weight: 900;
+}
+
+.signup-btn input:hover {
+    border: none;
+    cursor: pointer;
+    background-color: rgb(18, 221, 103);
+}
+
+.form h3,
+span {
+    color: black;
+    margin-top: 20px;
+}
+
+.form h3 {
+    margin-left: 150px;
+}
+
+.form span:hover {
+    cursor: pointer;
+}
+
+.form .Login-Link {
+    color: black;
+    text-decoration: none;
+}
